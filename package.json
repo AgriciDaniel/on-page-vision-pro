@@ -1,0 +1,47 @@
+{
+  "name": "on-page-vision-pro",
+  "version": "1.0.0",
+  "description": "Full-page CRO, visual hierarchy, accessibility, and on-page SEO/GEO audit studio built with Express, React 19, Playwright, sharp, and Gemini 4 + Nano Banana 2.1.",
+  "license": "Apache-2.0",
+  "author": "Agrici Daniel",
+  "private": true,
+  "type": "module",
+  "homepage": "https://github.com/AgriciDaniel/on-page-vision-pro#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AgriciDaniel/on-page-vision-pro.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AgriciDaniel/on-page-vision-pro/issues"
+  },
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "scripts": {
+    "dev": "node --env-file-if-exists=.env --env-file-if-exists=.env.local --import tsx server.ts",
+    "build": "vite build",
+    "start": "NODE_ENV=production node --env-file-if-exists=.env --env-file-if-exists=.env.local server.ts",
+    "preview": "vite preview",
+    "lint": "tsc --noEmit",
+    "test": "node --import tsx --test \"tests/**/*.test.ts\""
+  },
+  "dependencies": {
+    "@google/genai": "^3.6.1",
+    "express": "^5.3.0",
+    "lucide-react": "^0.555.0",
+    "playwright": "1.65.1",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "sharp": "^0.35.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.5",
+    "@types/express": "^5.0.6",
+    "@types/node": "^22.14.0",
+    "@vitejs/plugin-react": "^5.1.1",
+    "tailwindcss": "^4.3.5",
+    "tsx": "^4.23.15",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
+  }
+}

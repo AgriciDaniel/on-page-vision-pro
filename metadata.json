@@ -1,0 +1,8 @@
+{
+  "name": "On-page Vision Pro",
+  "description": "Full-stack multimodal CRO, visual hierarchy, and on-page SEO studio powered by Gemini 4, Nano Banana 2.1, Google Search grounding, and Gemini 3.8 TTS.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
